@@ -1,0 +1,15 @@
+h3{
+    font-size: 25px !important
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: BlaBlaBla;
+    animation-duration: 0.000000000000000000000000000000009s;
+    animation-iteration-count:infinite;
+}
+@keyframes BlaBlaBla{
+    from {box-shadow: 1px 1px 38px red}
+    to {box-shadow: 1px 1px 38px yellow}
+}
