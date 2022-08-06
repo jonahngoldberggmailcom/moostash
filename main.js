@@ -24,9 +24,9 @@ function modelLoaded(){
 }
 function gotPoses(results){
     if(results.length>0){
-        noseX=results[0].pose.nose.x-15;
-        noseY=results[0].pose.nose.y-15;
-        console.log("moostashe x = " + results[0].pose.nose.x)
-        console.log("moostashe y = " + results[0].pose.nose.y)
+        noseX=results[0].pose.moostashe.x-15;
+        noseY=results[0].pose.moostashe.y-15;
+        console.log("moostashe x = " + results[0].pose.moostashe.x)
+        console.log("moostashe y = " + results[0].pose.moostashe.y)
     }
 }
